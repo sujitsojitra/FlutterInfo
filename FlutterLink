@@ -1,0 +1,157 @@
+File download in specific folder
+https://stackoverflow.com/questions/59723036/path-picker-selecting-a-destination-path-location-in-the-file-system
+
+Firebase register
+https://heartbeat.fritz.ai/firebase-user-authentication-in-flutter-1635fb175675
+https://firebase.flutter.dev/docs/firestore/usage/
+
+Flutter web app host in Firebase
+https://www.youtube.com/watch?v=CAYa9AQGtdU
+
+Flutter all widget
+https://kodestat.gitbook.io/flutter/35-flutter-simpledialog
+
+Flutter PWidget project
+https://github.com/Solido/awesome-flutter
+
+Bottombar
+https://www.javatpoint.com/flutter-bottom-navigation-bar
+
+Download Progressbar 
+https://pub.dev/packages/sn_progress_dialog
+
+API call using http
+https://flutter.dev/docs/cookbook/networking/fetch-data
+
+API call using Provider
+https://github.com/jitsm555/Flutter-MVVM
+
+API call with GetX
+https://www.appwithflutter.com/flutter-state-management-with-getx/
+=>https://www.youtube.com/watch?v=apPH1CCOtKQ
+=>https://www.youtube.com/watch?v=V0oxG3tWiwk
+
+SQL lite example
+https://www.appwithflutter.com/flutter-database-note-app-sqflite/
+
+Shimmer Effect
+https://pub.dev/packages/skeleton_loader
+https://pub.dev/packages/shimmer/example
+
+Link Of Document Project Final bhail
+https://docs.google.com/spreadsheets/d/1X8V3SvC6CtQQQHLuGwIH97DwbGBEgNDqyNcVRBdbWVE/edit#gid=0
+
+Corona reminder
+https://docs.google.com/document/d/1l8Dd5K-h4A1FCkXlXWWFlhjLv1ZX6q-zR-pDyEAhpKU/edit
+Task App
+https://docs.google.com/document/d/1yt5P1Gdizy333b6iwD6diq2eMksfivShNPrVH8xRc7w/edit
+Ticktock
+https://docs.google.com/document/d/14NUnbTLJwx6UVJqCo1c81VYtNtKCRGb7pGAWv2xfmJ0/edit
+
+Theme Dark Light
+https://github.com/arthurdenner/theme_mode_handler
+=>Color info
+https://medium.com/flutter-community/themes-in-flutter-part-1-75f52f2334ea
+
+Chat,Video Call app
+https://developers.connectycube.com/flutter/README
+
+App open over other app
+=>https://pub.flutter-io.cn/packages/system_alert_window#:~:text=system_alert_window-,A%20flutter%20plugin%20to%20show%20Truecaller%20like%20overlay%20window%2C%20over,it%20shows%20an%20overlay%20window.
+=>https://www.youtube.com/watch?v=59K_2KnHEmg
+
+Riv animation
+=>https://github.com/rive-app/rive-flutter
+=>https://rive.app/community/
+
+Templetes
+https://hackernoon.com/top-25-flutter-mobile-app-templates-in-2020-dze53uq4
+
+https://github.com/mitesh77/Best-Flutter-UI-Templates
+
+=>Music App
+https://github.com/iampawan/Flutter-Music-Player?ref=hackernoon.com
+
+=>Flutter official site
+https://flutter.dev/docs/get-started/install
+
+=>Package List
+https://pub.dev/packages
+
+Loader GIF
+https://loading.io/
+https://wal33d.medium.com/flutter-progress-indicators-plugin-loaders-on-the-way-6aa983490253
+
+https://www.youtube.com/watch?v=PkY6Y-dmimE&list=PLpaPR7OMlko62b1RX9Va-QEDRQwmCIkS3&index=1
+
+=>Replay of Vikram sir. 
+https://prnt.sc/u0qnk5
+
+Google login
+https://medium.com/flutterdevs/google-sign-in-with-flutter-8960580dec96
+
+export PATH=~/Users/imac/Flutter/flutter/bin:$PATH
+
+=>How to download a file and store it in Downloads folder using Flutter
+https://stackoverflow.com/questions/57995621/how-to-download-a-file-and-store-it-in-downloads-folder-using-flutter
+
+Custom Font in Flutter
+https://www.youtube.com/watch?v=fDRtpjHfOuw
+
+Basic info of widget
+https://www.youtube.com/watch?v=-z26yE9g0Hg
+
+Flutter Tutorial using Dart: Raised Button and Alert Dialog Widget ( popup dialog )
+https://www.youtube.com/watch?v=h2U7S-3_rPc
+
+Flutter Floating Action Button ( FAB ) and Snack Bar 
+https://www.youtube.com/watch?v=ElZSoFCYmtw
+
+Dropdown Menu Item List
+https://www.youtube.com/watch?v=DvvnhRo0kHQ
+https://stackoverflow.com/questions/51841400/full-width-dropdownbutton-with-adjust-dropdown-arrow-icon-in-flutter
+
+Simple calculations App
+https://www.youtube.com/watch?v=bwADRDTs5Ho
+
+Validation
+https://www.youtube.com/watch?v=xiEYNzU4bDg
+
+Dark theme
+https://www.youtube.com/watch?v=XdUMp9k5JCI
+
+Focus on next field
+https://stackoverflow.com/questions/49410975/changing-focus-from-one-text-field-to-the-next-in-flutter
+https://medium.com/codechai/flutter-keyboard-actions-and-next-focus-field-3260dc4c694
+
+View Pager
+https://stackoverflow.com/questions/60529861/how-to-make-a-horizontal-scroll-animation-in-flutter
+
+Bottom bar hide show on scroll
+https://stackoverflow.com/questions/54414268/hide-bottom-navigation-bar-on-scroll-down-and-vice-versa
+
+Firebase login
+https://www.youtube.com/watch?v=aaKef60iuy8
+
+Scanner
+https://medium.com/flutter-community/working-with-barcodes-and-qr-codes-in-flutter-fbb3a2d4ede7
+https://www.youtube.com/watch?v=siuJhQ9BqsU
+
+App bar Scrollable
+https://www.youtube.com/watch?v=qWecOX6mubg
+
+Modifying the bundle identifier, package name & app display name in a Flutter app
+https://medium.com/fabcoding/modifying-the-bundle-identifier-package-name-app-display-name-in-a-flutter-app-8fa673c86cf5
+
+Send email
+=>https://pub.dev/packages/flutter_email_sender/example
+
+PdfViewer
+=>https://pub.dev/packages/flutter_cached_pdfview
+
+issue=>set state
+https://developpaper.com/some-tips-in-flutter-development-ii/
+
+Datepicker
+https://pub.dev/packages/flutter_rounded_date_picker
+
