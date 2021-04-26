@@ -1,3 +1,5 @@
+Convert in to dart type=https://app.quicktype.io/
+
 File download in specific folder
 https://stackoverflow.com/questions/59723036/path-picker-selecting-a-destination-path-location-in-the-file-system
 
@@ -24,6 +26,9 @@ API call using http
 https://flutter.dev/docs/cookbook/networking/fetch-data
 
 API call using Provider
+=>https://www.youtube.com/watch?v=s9Mv_8uA7Wo
+https://github.com/Richa0305/flutter_network_layer
+=>https://medium.com/flutterworld/flutter-mvvm-architecture-f8bed2521958
 https://github.com/jitsm555/Flutter-MVVM
 
 API call with GetX
