@@ -1,4 +1,31 @@
+
+=>(context) not work in init State
+ScaffoldMessenger.of(context).hideCurrentSnackBar()
+Provider.of<Product>(context).fetch();
+
+=>Use didChangeDependencies() 
+-In this we add (context) directly but it’s call every time so we have to set flag from init.
+-this method call before build 
+
+
+Installation Flutter
+https://flutter.dev/docs/get-started/install/macos
+
+API call with provider
+https://www.youtube.com/watch?v=s9Mv_8uA7Wo
 Convert in to dart type=https://app.quicktype.io/
+https://medium.com/flutterworld/flutter-mvvm-architecture-f8bed2521958
+
+Global variable
+https://dev.to/lucianojung/global-variable-access-in-flutter-3ijm
+https://stackoverflow.com/questions/29182581/global-variables-in-dart
+
+Responsive UI
+https://www.youtube.com/watch?v=EH92XnCU1Cc
+https://www.youtube.com/watch?v=ILATAD57gIc
+
+FittedBox //Important when set item force fully on box or assign Size
+https://medium.com/flutterdevs/responsive-flutter-layout-with-fittedbox-widget-2d5b7a260631
 
 File download in specific folder
 https://stackoverflow.com/questions/59723036/path-picker-selecting-a-destination-path-location-in-the-file-system
@@ -16,6 +43,9 @@ https://kodestat.gitbook.io/flutter/35-flutter-simpledialog
 Flutter PWidget project
 https://github.com/Solido/awesome-flutter
 
+Ecommerce UI
+https://www.youtube.com/watch?v=sOVgPx8ljaE
+
 Bottombar
 https://www.javatpoint.com/flutter-bottom-navigation-bar
 
@@ -26,9 +56,6 @@ API call using http
 https://flutter.dev/docs/cookbook/networking/fetch-data
 
 API call using Provider
-=>https://www.youtube.com/watch?v=s9Mv_8uA7Wo
-https://github.com/Richa0305/flutter_network_layer
-=>https://medium.com/flutterworld/flutter-mvvm-architecture-f8bed2521958
 https://github.com/jitsm555/Flutter-MVVM
 
 API call with GetX
@@ -60,6 +87,7 @@ https://medium.com/flutter-community/themes-in-flutter-part-1-75f52f2334ea
 
 Chat,Video Call app
 https://developers.connectycube.com/flutter/README
+=>https://github.com/Ronak99/Skype-Clone/tree/Part-12-Video_Calling_Over_Network
 
 App open over other app
 =>https://pub.flutter-io.cn/packages/system_alert_window#:~:text=system_alert_window-,A%20flutter%20plugin%20to%20show%20Truecaller%20like%20overlay%20window%2C%20over,it%20shows%20an%20overlay%20window.
@@ -71,8 +99,10 @@ Riv animation
 
 Templetes
 https://hackernoon.com/top-25-flutter-mobile-app-templates-in-2020-dze53uq4
-
+https://www.creative-tim.com/templates/flutter-free
+https://startflutter.com/
 https://github.com/mitesh77/Best-Flutter-UI-Templates
+
 
 =>Music App
 https://github.com/iampawan/Flutter-Music-Player?ref=hackernoon.com
@@ -159,4 +189,111 @@ https://developpaper.com/some-tips-in-flutter-development-ii/
 
 Datepicker
 https://pub.dev/packages/flutter_rounded_date_picker
+
+
+
+git config --global user.name “vickeyram”
+git config --global user.email "vickeyram61@gmail.com"
+
+git - https://github.com/allnet/AIMS-UniversalMagicSeries
+vickeyram61@gmail.com
+Name= vickyeram
+Email:vickeyram61@gmail.com
+Vikram@2020
+Branch : vikram-effect
+
+git switch ReactiveMessageBoard
+:37
+git checkout
+
+Udemy
+=>More on Layouting (with Column(), Row() etc.): https://flutter.dev/docs/development/ui/layout
+=>More on Images & Assets: https://flutter.dev/docs/development/ui/assets-and-images
+=>Official Widget Catalog: https://flutter.dev/docs/development/ui/widgets
+=>Material Design Docs: https://material.io/design/
+=>Flutter Theming: https://flutter.dev/docs/cookbook/design/themes 
+=>ForLoop in flutter
+		for (var i = 0; i < recentTransactions.length; i++) {
+		    print(recentTransactions[i]); // access list items with [i] => i is dynamic!
+		}
+
+	for (var tx in recentTransactions) {
+	    print(tx); // tx is the item already! Changes with every iteration of course
+	}
+
+
+=>Working with the "textScaleFactor"
+In this course, I mostly focus on the device sizes (height and width) when it comes to working with the MediaQuery class.
+As mentioned, it offers way more than that of course. On particularly interesting property is the textScaleFactor property:
+	.	final curScaleFactor = MediaQuery.of(context).textScaleFactor;
+textScaleFactor tells you by how much text output in the app should be scaled. Users can change this in their mobile phone / device settings.
+Depending on your app, you might want to consider using this piece of information when setting font sizes.
+Consider this example:
+	.	Text('Always the same size!', style: TextStyle(fontSize: 20));
+This text ALWAYS has a size of 20 device pixels, no matter what the user changed in his / her device settings.
+	.	Text('This changes!', style: TextStyle(fontSize: 20 * curScaleFactor));
+This text on the other hand also has a size of 20 if the user didn't change anything in the settings (because textScaleFactor by default is 1). But if changes were made, the font size of this text respects the user settings.
+More on MediaQuery & Responsive Layouts: https://api.flutter.dev/flutter/widgets/MediaQuery-class.html & https://stackoverflow.com/questions/49704497/how-to-make-flutter-app-responsive-according-to-different-screen-size?rq=1
+More on LayoutBuilder: https://api.flutter.dev/flutter/widgets/LayoutBuilder-class.html
+All Cupertino Widgets: https://flutter.dev/docs/development/ui/widgets/cupertino
+Part 1 (Stateless Widgets): https://www.youtube.com/watch?v=wE7khGHVkYY
+Part 2 (Stateful Widgets, Widget Tree, Element Tree): https://www.youtube.com/watch?v=AqCMFXEmf3w
+Part 3 (Inherited Widget/ Context): https://www.youtube.com/watch?v=Zbm3hjPjQMk
+Part 4 (Keys): https://www.youtube.com/watch?v=kn0EOS-ZiIc
+App Lifecycle: https://medium.com/pharos-production/flutter-app-lifecycle-4b0ab4a4211a
+
+=>Navigation using name routs
+
+Official Navigation Docs: https://flutter.dev/docs/development/ui/navigation
+Named Routes + Arguments: https://flutter.dev/docs/cookbook/navigation/navigate-with-arguments 
+=> Provider
+In addition, the following resources might be helpful:
+	•	Official Provider Docs/ Repo: https://pub.dev/packages/provider
+	•	Official State Management Docs: https://flutter.dev/docs/development/data-and-backend/state-mgmt/intro 
+=>SnackBar
+If you're working with Flutter 2 or higher, you might see a deprecation warning regarding the hideCurrentSnackBar() and showSnackbar() methods.
+You can get rid of them by using:
+	.	ScaffoldMessenger.of(context).hideCurrentSnackBar()
+	.	ScaffoldMessenger.of(context).showSnackbar(...)
+instead of
+	.	Scaffold.of(context).hideCurrentSnackBar()
+	.	Scaffold.of(context).showSnackbar(...)
+
+=>You can learn more about the "regular expression language" 
+here: https://www.youtube.com/playlist?list=PL55RiY5tL51ryV3MhCbH8bLl7O_RZGUUE 
+
+=>Official Input & Forms Docs: https://flutter.dev/docs/cookbook#forms
+
+=>More on Sending Http Requests: https://flutter.dev/docs/cookbook/networking/fetch-data 
+=>Token for firebase
+More on JSON Web Tokens - the Tokens we're using here: http://jwt.io 
+Firebase Auth REST API: https://firebase.google.com/docs/reference/rest/auth 
+=>Official Animation Docs: https://flutter.dev/docs/development/ui/animations
+=>For network image use animation
+FadeInImage(
+	placeholder:AssetImage(),
+	image:NetworkImage(URL),
+	fit: BoxFit.cover
+)
+
+Image Picker Package: https://pub.dev/packages/image_picker 
+Location Package: https://pub.dev/packages/location 
+Path Provider Package: https://pub.dev/packages/path_provider 
+Path Package: https://pub.dev/packages/path 
+Google Maps Package: https://pub.dev/packages/google_maps_flutter 
+SQFLite Package: https://pub.dev/packages/sqflite 
+=>Adding "GoogleServices-Info.plist" correctly to iOS
+I'll also show this later in a lecture but in case you try running the app on an iOS simulator or device and you're getting an error right now, make sure you add "GoogleServices-Info.plist" to the iOS project by:
+1) Opening XCode and opening the iOS folder as a project there
+2) Adding the "GoogleServices-Info.plist" file via "Add Files" (right click on "Runner" in the left bar and choose "Add Files to 'Runner'") => Select the "GoogleServices-Info.plist" file
+
+If you want to use the latest versions, you can follow the official migration guide to update your code: https://firebase.flutter.dev/docs/migration
+
+=>Updating to the latest Firebase Package Versions
+https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/learn/lecture/21977584#overview
+
+=>Writing Custom Native Code (Official Docs): https://flutter.dev/docs/development/platform-integration/platform-channels 
+=>Official Docs for Android Publishing: https://flutter.dev/docs/deployment/android 
+=>Official Docs for iOS Publishing: https://flutter.dev/docs/deployment/ios 
+
 
