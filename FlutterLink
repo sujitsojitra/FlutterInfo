@@ -1,3 +1,7 @@
+=>Omnidesk
+https://www.omnigroup.com/more
+=>File Transfer
+https://android-file-transfer.en.uptodown.com/mac
 
 =>(context) not work in init State
 ScaffoldMessenger.of(context).hideCurrentSnackBar()
@@ -27,7 +31,7 @@ https://www.youtube.com/watch?v=ILATAD57gIc
 FittedBox //Important when set item force fully on box or assign Size
 https://medium.com/flutterdevs/responsive-flutter-layout-with-fittedbox-widget-2d5b7a260631
 
-File download in specific folder
+File download Picker in specific folder
 https://stackoverflow.com/questions/59723036/path-picker-selecting-a-destination-path-location-in-the-file-system
 
 Firebase register
@@ -116,11 +120,12 @@ https://pub.dev/packages
 Loader GIF
 https://loading.io/
 https://wal33d.medium.com/flutter-progress-indicators-plugin-loaders-on-the-way-6aa983490253
+Same as Xamarin =>https://pub.dev/packages/flutter_spinkit
+=>https://github.com/jogboms/flutter_spinkit
+=>https://github.com/samarthagarwal/FlutterScreens
 
 https://www.youtube.com/watch?v=PkY6Y-dmimE&list=PLpaPR7OMlko62b1RX9Va-QEDRQwmCIkS3&index=1
 
-=>Replay of Vikram sir. 
-https://prnt.sc/u0qnk5
 
 Google login
 https://medium.com/flutterdevs/google-sign-in-with-flutter-8960580dec96
@@ -190,21 +195,9 @@ https://developpaper.com/some-tips-in-flutter-development-ii/
 Datepicker
 https://pub.dev/packages/flutter_rounded_date_picker
 
-
-
-git config --global user.name “vickeyram”
-git config --global user.email "vickeyram61@gmail.com"
-
-git - https://github.com/allnet/AIMS-UniversalMagicSeries
-vickeyram61@gmail.com
-Name= vickyeram
-Email:vickeyram61@gmail.com
-Vikram@2020
-Branch : vikram-effect
-
-git switch ReactiveMessageBoard
-:37
-git checkout
+Game in Flutter
+https://www.youtube.com/watch?v=cxX16GBitpY
+https://www.youtube.com/watch?v=vgmVPpFP0fI
 
 Udemy
 =>More on Layouting (with Column(), Row() etc.): https://flutter.dev/docs/development/ui/layout
@@ -295,5 +288,87 @@ https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/learn/
 =>Writing Custom Native Code (Official Docs): https://flutter.dev/docs/development/platform-integration/platform-channels 
 =>Official Docs for Android Publishing: https://flutter.dev/docs/deployment/android 
 =>Official Docs for iOS Publishing: https://flutter.dev/docs/deployment/ios 
+
+
+=>I have seen 363 Video of udemy course for flutter
+=>I have learned how to use firebase for store and get data
+=>Also I have learn how to Writing Custom Native Code
+
+
+=>I have set user image on chat page now Working on one-one Chat functionality in flutter using firebase
+https://prnt.sc/139ggs7
+
+
+=>I have seen 200 videos of udemy course for flutter
+=>I have also learned new concepts from that Provider Use
+
+=>Completed one to one chat using firebase in flutter
+https://prnt.sc/13e7nts
+
+=>Working on one-one Chat functionality in flutter using firebase
+
+I have completed flutter full course it’s very useful for beginner and also I have learn many thing from that.
+In course explain all the concepts very well in deep
+Course is old like now flutter 2.2 is available but in this they explain changes also so that’s plush point.
+
+Container(
+  alignment: Alignment.center,
+  child: AdWidget(ad: myBanner),
+  width: myBanner.size.width.toDouble(),
+  height: myBanner.size.height.toDouble(),
+)
+
+Github
+
+git config --global user.name "NAME"
+git config --global user.email "EMAIL"
+
+Take particular branch clone
+	.	take clone of MASTER branch
+	.	open terminal at master branch folder and hit git branch -la command
+	.	hit git checkout --track origin/[branchName] command like [ git checkout --track origin/Namebranch]
+	.	check current branch using git branch command
+
+
+[prepared all files that have changed]
+$ git add .
+[display all the files which are added for commit]
+$ git status
+[add proper message for commit]
+$ git commit -m "Add existing file"
+[Push your file to git-repo]
+$ git push 
+
+=>I have Explain my project to Assigned name.
+=>I have Added All project on Github
+=>Error When add Botcheck on Github
+https://prnt.sc/13fmcrb
+
+=>Download Image in device when load and open with animation in other page.
+=>Share Image with any media and also zoom in that image.
+https://drive.google.com/file/d/1ZbA3TsUTyNN5a4w1Q1Nl5pmOu8JYUaa_/view?usp=sharing
+
+
+  keytool -genkey -v -keystore ~/Jasmin.jks -keyalg RSA -keysize 2048 -validity 10000 -alias upload
+
+
+/Users/imac/Flutter/Jasmin.jks
+
+
+
+keytool -list -v -keystore ~/Users/imac/Flutter/Jasmin.jks -alias natApp_Jasmin -storepass Jasmin@2287 -keypass Jasmin@2287
+
+
+Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (context) => SignInPage()), (route) => false);
+
+
+Navigator.pushAndRemoveUntil(
+    context, MaterialPageRoute(builder: (context) => HomePage()), (
+    route) => false);
+
+FirebaseFirestore.instance.collection('users').doc(Uid).update({
+  "status”:”Approved”
+}).then((result){});
+
 
 
